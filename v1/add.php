@@ -1,6 +1,7 @@
 <?php
     require_once('connection.php');
     
+    // adding currently works with only form data
     if(isset($_POST['nama'])&&isset($_POST['kelas'])&&isset($_POST['alamat'])&&isset($_POST['jurusan'])&&isset($_POST['pangkat'])){        
     $nama    = $_POST['nama'];
     $kelas   = $_POST['kelas'];
